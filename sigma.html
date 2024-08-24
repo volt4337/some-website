@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #121212; /* Dark background */
+            color: #ffffff; /* Light text */
+        }
+
+        header {
+            background-color: #1f1f1f; /* Slightly lighter dark color for header */
+            padding: 20px;
+        }
+
+        section {
+            background-color: #282828; /* Slightly lighter dark color for sections */
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px; /* Add rounded corners to sections */
+        }
+
+        footer {
+            background-color: #1f1f1f; /* Slightly lighter dark color for footer */
+            padding: 10px;
+            text-align: center;
+        }
+
+        a { /* Style links for better visibility on dark background */
+            color: #00a0ff; /* Light blue color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>im a pretty sigma guy.</p>
+            <p>I like to play video games and watch youtube.</p>
+            <p>I also like to program and get absolutely no where with my code in my free time.</p>
+        </section>
+        <section>
+            <h2>My Projects</h2>
+            <p>none, well for now.</p>
+            <ul>
+            </ul>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <p>you can contact me on discord: "volt_4337"</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 volt's Website (totally real copyright)</p>
+    </footer>
+</body>
+</html>
+    <style>
+        body {
+            font-family: 'SFPro-Medium', sans-serif;
+        }
+    </style>
+    <style>
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section > h2 {
+            margin-bottom: 20px;
+        }
+
+        section > p {
+            text-align: center;
+        }
+    </style>
+    <style>
+        section > h2 {
+            font-size: 2.5rem;
+        }
+
+        section > p {
+            font-size: 1.5rem;
+        }
+    </style>
+
+    <script>
+        // Add event listener to header
+        const header = document.querySelector('header');
+        header.addEventListener('click', () => {
+            // Change color of header on click
+            header.style.backgroundImage = 'linear-gradient(to bottom right, #00a0ff, #0042A6)';
+        });
+    </script>
+    <style>
+        header {
+            margin-bottom: 15px;
+        }
+    </style>
+    <script>
+        // Change color of header when page loads
+        window.addEventListener('load', () => {
+            const header = document.querySelector('header');
+            header.style.backgroundImage = 'linear-gradient(to bottom right, #00a0ff, #0042A6)';
+        });
+    </script>
+    <style>
+        /* Add a shadow to the sections */
+        section {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+
+    <script>
+        // Change color of sections when page loads
+        window.addEventListener('load', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.backgroundImage = 'linear-gradient(to bottom right, #282828, #1f1f1f)';
+            });
+        });
+    </script>
+    <style>
+        /* Add a glow effect to the sections when hovered */
+        section:hover {
+            box-shadow: 0 0 10px #ffffff;
+        }
+
+        /* Add a pulsing effect to the sections when hovered */
+        section:hover {
+            animation: pulse 1s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse {
+            from {
+                background-color: #282828;
+            }
+
+            to {
+                background-color: #1f1f1f;
+            }
+        }
+    </style>
